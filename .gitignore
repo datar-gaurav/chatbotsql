@@ -1,0 +1,23 @@
+# Environments
+.env
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Langchain Cache
+.langchain.db
+
+# Docker
+.docker/
+
+# Mac OS
+.DS_Store

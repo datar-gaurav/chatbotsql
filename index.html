@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Integration Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #1e293b;
+            color: #fff;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .content {
+            margin-top: 50px;
+            max-width: 800px;
+            text-align: center;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .content p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Awesome Web Application</h1>
+    </header>
+
+    <div class="content">
+        <h2>Welcome to the demo!</h2>
+        <p>This is a completely generic HTML page.</p>
+        <p>Look at the bottom right corner! The Chatbot widget has been injected via a single <code>&lt;script src="widget.js"&gt;&lt;/script&gt;</code> tag.</p>
+        <p>You can use the chat widget to ask questions like:<br>
+          <i>"Who is the highest paid employee?"</i><br>
+          <i>"What is the total salary for the Sales department?"</i>
+        </p>
+    </div>
+
+    <!-- Simply drop the widget script here -->
+    <script src="widget.js"></script>
+    
+</body>
+</html>
